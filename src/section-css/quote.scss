@@ -1,0 +1,21 @@
+.quote {
+    background: #f0f0f0;
+    padding: 60px 15px;
+
+    &::before {
+        content: "\201C";
+        display: block;
+        text-align: center;
+        font-size: 200px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: -50px;
+        height: 100px;
+        overflow: hidden;
+    }
+
+    p:first-child {
+        font-size: 29px;
+        line-height: 150%;
+    }
+}
+  

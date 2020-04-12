@@ -1,0 +1,20 @@
+#pledge {
+    .pledge-buttons {
+        width: 250px;
+        margin: 0 auto;
+
+        button {
+            display: block;
+            margin: 15px 0;
+            padding: 15px;
+            box-sizing: border-box;
+            background: transparent;
+            width: 100%;
+        }
+    }
+
+    ol li {
+        max-width: 800px;
+        margin: 20px auto;
+    }
+}
