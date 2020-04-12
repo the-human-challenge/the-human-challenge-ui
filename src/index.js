@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './section-css/pledge.scss';
+import './section-css/header.scss';
+import './section-css/pledge.scss';
+import './section-css/quote.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 

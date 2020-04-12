@@ -24,11 +24,73 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>The Human Challenge - Pledge Your Support for Coronavirus Vaccine Testing</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <header id="siteHeader">
+      <h2>#thehumanchallenge</h2>
+      <ul>
+        <li><a href="#supporters">Supporters</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+        <li><a href="#pledge">Take the Pledge</a></li>
+      </ul>
+    </header>
+    <div class="top">
+      <h1>Pledge your support for human challenge vaccine trials for SARS-CoV-2</h1>
+      <p>In a typical vaccine trial, participants would be injected with either the potential vaccine or a placebo, then followed for several months to see who becomes infected with SARS-CoV-2 and who doesn't. In a <strong>human challenge trial</strong>, volunteers are injected with either the potential vaccine or a placebo, and then <strong>intentionally exposed to SARS-CoV-2</strong> - allowing for the vaccine's efficacacy to be determined much more quickly.</p>
+      <p>Show the world support for a human challenge vaccine trial exists by <a href="#pledge">pledging your willingness</a> to participate in a human challenge trial for SARS-CoV-2</p>
+    </div>
+    <div class="quote">
+      <p>In a human challenge study...vaccine evaluation could be conducted in weeks rather than many months and efficacious vaccines could be made available considerably more quickly.</p>
+      <p><a href="https://www.futurity.org/human-challenge-study-coronavirus-vaccine-2324142-2/" target="_blank" rel="noopener noreferrer">Peter G. Smith, London School of Hygiene &amp; Tropical Medicine</a></p>
+    </div>
+    <div id="pledge">
+      <p>In order to pledge your willingness to participate in human challenge vaccine trials, you must accept the following:</p>
+      <ol>
+        <li>I commit that I am willing to participate in a human challenge vaccine trial for <strong>even if no compensation is offered</strong></li>
+        <li>I understand that participating in a human challenge vaccine trial means I might be intentionally exposed to SARS-CoV-2 after being injected with a placebo, not the potential vaccine</li>
+        <li>I accept that participating in a human challenge vaccine trial may result in short-term disability, long-term disability, or death - caused by either the potential vaccine or by COVID-19</li>
+        <li>I'm willing to accept that medical expenses I incur as a result of participating in the trial may not be covered</li>
+        <li>I understand that participating in a human challenge vaccine trial would likely require me to be placed in isolated quarantine for 14 days or longer</li>
+        <li>To the best of my knowledge, I haven't been infected by SARS-CoV-2 in the past</li>
+        <li>I understand that after this pledge, my name, photo, city/country and a link to my social media profile will by made available on The Human Challenge website</li>
+        <li>I understand that this pledge doesn't automatically volunteer me for any vaccine trials and I will need to volunteer for actual human challenge vaccine trials separately, if they occur and I'm elligible for them and wish to participate</li>
+      </ol>
+      <div class="pledge-buttons">
+        <button class="facebook-pledge">Pledge Using Facebook</button>
+        <button class="linkedin-pledge">Pledge Using LinkedIn</button>
+      </div>
+    </div>
+
+    <div id="supporters">
+      <h3>Pledged Supporters</h3>
+      <div id="root">
+        <noscript>You need to enable JavaScript to see existing pledged supporters</noscript>
+      </div>
+    </div>
+
+    <div id="faq">
+      <ul>
+        <li>
+          <h4>Can I pledge without a Facebook or LinkedIn account?</h4>
+          <p>In order to ensure pledges are genuine, we require that pledges be associated with a social media profile from a credible social networking service. If you wish to suggest other services, please use the <a href="#feedback">feedback form</a></p>
+        </li>
+        <li>
+          <h4>Is there an age restriction on who can pledge?</h4>
+          <p>We'll accept pledges from people of all ages, but if human challenge vaccine trials are actually conducted, it's likely that only young adults will be accepted as volunteers.</p>
+        </li>
+      </ul>
+    </div>
+
+    <div id="feedback">
+      <form class="feedback-form">
+        <input id="feedback-name" type="text" placeholder="Name" />
+        <input id="feedback-email" type="email" placeholder="E-Mail Address" />
+        <textarea required id="feedback-message" placeholder="Message"></textarea>
+        <button>Send Feedback</button>
+      </form>
+    </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
